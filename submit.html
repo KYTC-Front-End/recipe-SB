@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8cde0b1b33.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="media.css"/>
+    <title>submit</title>
+</head>
+<body>
+
+ <!-- start of header  -->
+ <section class="header-contaier">
+    <section class="header-center">
+       <a href="index.html" class="logo"> <img src="./img/logo.png" alt="logo"/></a>
+       <input type="checkbox" name="" id="menu"/>
+       <label for="menu"><i class="fa fa-bars" id="menu-icon" ></i></label>
+       <ul class="navbar">
+           <li><a href="index.html" class="home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="list.html">Recipe Listing</a></li>
+           <li><a href="submit.html">Submit Recipe</a></li>
+           <li><a href="#contact">Contact </a></li>
+       </ul>
+       <section class="header-top">
+        <form class="search">
+            <input type="text" placeholder="search..." name="search" class="search1">
+            <button type="submit"> <i class="fa fa-search" style="color: #fff;"></i></button>
+        </form>
+       </section>
+       <section class="header-icons">
+        <i class="fa fa-user" id="icons" style="color: #ef7123;"></i>
+       </section>
+       <section class="header-icons">
+        <i class="fa fa-heart" id="icons" style="color: #ef7123;"></i>
+       </section>
+    </section>
+</section>
+
+
+    <!-- submit -->
+    <section class="submit-contaier">
+        <section class="submit-tixt">
+            <h2>Submit Recipe</h2>
+        </section>
+        <section class="submit-contant">
+            <section class="submit-imge">
+                <img src="img/Group 18137.png">
+            </section>
+            <form class="submit-label">
+                <label for="submit-name">Name of Recipe</label>
+                <input type="text"  placeholder="Enter name of recipe" id="submit-name" required>
+                <br />
+              
+                <label for="submit-ingredients">Ingredients</label>
+                <textarea id="submit-ingredients" placeholder="Enter ingredients" rows="5" required></textarea>
+                <br />
+              
+               <label for="submit-method">Instructions</label>
+                <textarea id="submit-method" placeholder="Enter ingredients" rows="5"></textarea>
+                <br />
+                 
+                <label for="submit-name">Time Spent</label>
+                <input type="text" placeholder="Enter time spent" id="submit-name" required>
+                <br />
+
+                <button type="submit" class="submit">Submit Recipe</button>
+              </form>
+        </section>
+    </section>
+
+     <!----Footer Section-->
+     <hr  style="margin-top: 150px;"/>
+     <footer class="footer-container">
+       <section class="footer-title">
+         <section class="footer-title-left">
+           <nav class="nav">
+             <img class="footer-title-left-img" src="./img/logo.png" />
+           </nav>
+         </section>
+         <section class="footer-title-right">
+           <nav><a href="">Home</a></nav>
+           <nav><a href="">About</a></nav>
+           <nav><a href="">Recipe Listing</a></nav>
+           <nav><a href="">submit recipe</a></nav>
+           <nav><a href="">contact</a></nav>
+         </section>
+         </section>
+         <section class="footer-title-bottom">
+            <section class="social-box">
+              <span> <i class="fa-brands fa-facebook-f"></i></span>
+              <span> <i class="fa-brands fa-instagram"></i></span>
+              <span>  <i class="fa-brands fa-twitter"></i></span>
+            </section>
+     </section>
+     </footer>
+</body>
+</html>
