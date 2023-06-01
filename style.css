@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-
     list-style: none;
     text-decoration: none;
 }
@@ -13,7 +12,7 @@
  /* start of header  */
  .header-contaier{
     display: block;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -101,15 +100,15 @@
     line-height: 22px;
 }
 .hero-img img {
-    width: 25vw;
+    width: 390px;
 }
 .hero-btn {
     border-radius: 10px;
     background-color: #ef7123;
     border: 3px solid #ef7123;
     letter-spacing: 1.5px;
-    width: 15vw;
-    height: 7vh;
+    width: 170px;
+    height: 50px;
     color: #ffffff;
     margin-top: 26px;
 }
@@ -142,6 +141,7 @@
     background: linear-gradient(145deg, #ececec, #ffffff);
     box-shadow: 28px 28px 55px #d4d4d4, -28px -28px 55px #ffffff;
     z-index: 2;
+    width: 404px;
     display: flex;
     align-items: center;
     justify-content: center
@@ -149,7 +149,7 @@
 }
 #item1{
     background: #ef6123;
-    width: 7vw;
+    width: 20px;
 }
 .menu-tab ul li, .menu-tab ul .filter-active {
     display: inline-flex;
@@ -181,7 +181,7 @@
 }
 /* Recipe Listing */
 .List-contaier{
-    width: 100vw;
+    width: 100%;
     padding: 15px 16px;
 }
 .List-contaier h1{
@@ -192,36 +192,36 @@
     margin-bottom: 30px;
 }
 .List_box{
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 .List_card{
-    width: 26vw;
-    height: 60vh;
+    width: 300px;
+    height: 395px;
     padding-top: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 .List_image{
-    width: 26vw;
-    height: 35vh;
+    width: 275px;
+    height: 225px;
     margin: 0 auto;
     overflow: hidden;
 }
 .List_image img{
-    width: 26vw;
-    height: 35vh;
+    width: 273px;
+    height: 252px;
     transition: 0.3s;
 }
 .List_image:hover img{
     transform: scale(1.1);
 }
 .small_card{
-    width: 6vw;
-    height: 6vh;
+    width: 45px;
+    height: 45px;
     float: right;
     position: relative;
     top: -240px;
@@ -260,7 +260,7 @@
 }
 .List_info h2{
     font-size: 20px;
-    width: 24vw;
+    width: 517px;
     padding: 8px;
 }
 .List_icon{
@@ -319,7 +319,7 @@ i {
 
 
 img.footer-title-left-img {
-    width: 15vw;
+    width: 170px;
 }
 
 .social-box {
@@ -367,7 +367,7 @@ img.footer-title-left-img {
     
     line-height: 30px;
     padding: 12px 15px;
-    width: 12vw;
+    width: 150px;
 }
 .checkbox p{
     font-size: 12px;
@@ -386,36 +386,36 @@ img.footer-title-left-img {
     margin-bottom: 30px;
 }
 .Recipe_box{
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 .Recipe_card{
-    width: 27vw;
-    height: 65vh;
+    width: 270px;
+    height: 395px;
     padding-top: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 .Recipe_image{
-    width: 25vw;
-    height: 39vh;
+    width: 250px;
+    height: 240px;
     margin: 0 auto;
     overflow: hidden;
 }
 .Recipe_image img{
-    width: 25vw;
-    height: 36vh;
+    width: 100%;
+    height: 80%;
     transition: 0.3s;
 }
 .Recipe_image:hover img{
     transform: scale(1.1);
 }
 .small_card{
-    width: 1vw;
-    height: 45vh;
+    width: 45px;
+    height: 45px;
     float: right;
     position: relative;
     top: -240px;
@@ -459,7 +459,7 @@ img.footer-title-left-img {
 }
 .Recipe_icon{
     color: #ef7123;
-    width: 6vw;
+    width: 67px;
     padding: 8px;
     display: flex;
     align-items: center;
@@ -481,13 +481,13 @@ img.footer-title-left-img {
     justify-content: space-evenly;
 }
 .Detail-imge img{
-    width: 40vw;
-    height: 110vh;
+    width: 565px;
+    height: 617px;
     padding: 26px;
 }
 .Detail-tixt{
     padding: 26px;
-    width: 50vw;
+    width: 50%;
 }
 .Detail-tixt h2{
     color: #ef7123;
@@ -511,16 +511,16 @@ img.footer-title-left-img {
     gap: 17px;
 }
 .btn{
-    height: 7vh;
-    width: 10vw;
+    height: 2.5rem;
+    width: 9rem;
     border-radius: .5rem;
     background: #ef7123;
     border: none;
     
 }
 .btu{
-    height: 7vh;
-    width: 9vw;
+    height: 2.5rem;
+    width: 7rem;
     border-radius: .5rem;
     border: 1px  solid #ef7123;
     background: none;
