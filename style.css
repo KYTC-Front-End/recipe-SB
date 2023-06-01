@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
-    scroll-padding-top: 4px;
     list-style: none;
     text-decoration: none;
 }
