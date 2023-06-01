@@ -3,7 +3,7 @@
   @media (max-width :600px) {
     /********************************** start of header */
     .header-contaier{
-        width: 100%;
+        width: 210vw;
     }
     .header-center{
         padding: 6px 0;
@@ -24,7 +24,7 @@
         transition: 0.6s;
     }
     .header-center .logo{
-        width: 100%;
+        width: 100vw;
     }
     .navbar a{
         display: block;
@@ -57,7 +57,7 @@
     height: 164vh;
 }
 .hero-img img {
-    width: 350px;
+    width: 35vw;
 }
 .hero-title h2 {
     font-size: 35px;
@@ -97,8 +97,8 @@
     flex-direction: column;
 }
 .Detail-imge img{
-    width: 517px;
-    height: 585px;
+    width: 15vw;
+    height: 100vh;
 }
 .Detail-tixt{
     display: flex;
@@ -123,13 +123,13 @@
   @media (max-width :900px){
     /* start of header */
     .header-contaier{
-        width: 909px
+        width: 909vw;
     }
     .header-center{
         padding: 6px 0;
     }
     .header-center .logo{
-        width: 800px;
+        width: 800vw;
     }
     #menu-icon{
         display: initial;
